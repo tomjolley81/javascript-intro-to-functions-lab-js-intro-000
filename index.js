@@ -11,3 +11,10 @@ function logShout(string) {
     console.log(string.toUpperCase());
   }
 }
+function logWhisper(string) {
+  if (string.toLowerCase() === string) {
+    console.log(string);
+  }else {
+    console.log(string.toLowerCase());
+  }
+}
